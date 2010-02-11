@@ -1,0 +1,34 @@
+SecuritySensors
+===============
+
+Copyright 2009 Jonathan Oxer
+Copyright 2009 Hugh Blemings
+
++---------------------------------------------------------------------+
+| This project is featured in the book "Practical Arduino" by         |
+| Jonathan Oxer and Hugh Blemings (Apress, 2009). More information    |
+| about the book and this project is available at:                    |
+|                                                                     |
+| www.practicalarduino.com/projects/security-sensors                  |
++---------------------------------------------------------------------+
+
+Security system sensors such as motion detectors, reed switches,
+pressure mats, glass-break detectors, infrared beams, and conductive
+film, can be very handy for all sorts of things including home
+automation systems, interactive art installations, and even sometimes
+even security systems!
+
+Most security sensors provide a “normally closed” (or N.C.) output: that
+is, when they have not been tripped their output is closed-circuit, and
+when it has been tripped it goes open-circuit. This is the exact
+opposite behavior of something like a simple push button switch, which
+is normally open-circuit and then goes closed-circuit when you press it.
+
+To guard against malicious tampering with the cabling, a security system
+needs to detect far more than a simple open or closed circuit. It needs
+to be able to detect if the wire to a sensor has been cut, or a wire
+short-circuited, or the sensor has been tripped. It also needs to detect
+if the sensor is being tampered with, even when the alarm system itself
+is in a disarmed state. Well designed security systems treat all parts
+of the system as untrusted and can detect tampering in nearly any cable
+or sensor at any time, whether it is currently armed or disarmed.
